@@ -1,0 +1,16 @@
+name: "➕ Join organization"
+description: Create a new issue to join the yc-oss organization on GitHub.
+title: "➕ Join organization"
+labels:
+  - "needs approval"
+assignees:
+  - AnandChowdhary
+body:
+  - type: input
+    id: bookface_url
+    attributes:
+      label: "Bookface profile URL"
+      description: Please enter the URL of your Bookface profile
+      placeholder: e.g., https://bookface.ycombinator.com/user/160713
+    validations:
+      required: true
