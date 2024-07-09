@@ -1,0 +1,20 @@
+name: Send invitation
+on:
+  issues:
+    types:
+      - labeled
+jobs:
+  send-invitation:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Send invitation
+        uses: vj-abigo/invite-on-label@v1.4
+        with:
+          organization: yc-oss
+          label: approved
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          comment: ":sparkles: Invitation enroute! :sparkles:"
+        env:
+          INVITE_TOKEN: ${{ secrets.INVITE_TOKEN }}
