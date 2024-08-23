@@ -1,6 +1,10 @@
 # Open Source Founders of YC
 
-**Open Source Founders of YC is the group of Y Combinator alumni contribution to open source.**
+**Open Source Founders of YC is the group of Y Combinator alumni contribution to open source.** YC has funded [100+ open source companies](https://github.com/yc-oss/open-source-companies) and this group aims to collaborate and build a community around open source.
+
+## YC companies API
+
+We host open source JSON APIs for all publicly-launched YC-funded companies by featured, batches, industries, and tags. [Use YC companies API →](https://github.com/yc-oss/api)
 
 ## Join organization
 
